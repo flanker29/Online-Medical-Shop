@@ -1,0 +1,53 @@
+body {
+    background-color: #96dfe1;
+}
+
+.brand {
+    border-radius: 0.5rem;
+    height: 3.7rem;
+    width: 10rem;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 3%;
+}
+
+.nav-item {
+    margin: 1rem 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.nav_item {
+    list-style: none;
+    margin: 0.5rem 1rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_logo {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 4rem;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+.nav_item a:hover {
+    color: darkcyan;
+}
+
+.nav_item:first-child {
+    margin-right: auto;
+}
